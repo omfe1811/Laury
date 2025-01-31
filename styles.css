@@ -1,10 +1,9 @@
 body {
   /* overflow: hidden; */
-  touch-action: manipulation;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 1rem;
   background-color: rgb(236, 230, 208);
   color: black;
 }
@@ -12,21 +11,107 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Dymo;
   letter-spacing: 0rem;
-  text-align: right;
+  margin: 0;
+  padding: 0%;
+  font-family: Dymo;
 }
 h1 {
-  font-family: Dymo;
-  font-size: 6rem;
-  letter-spacing: 0rem;
-  text-align: right;
-  padding: 10%;
+  font-size: 10vw;
+}
+h2 {
+  font-size: 6vw;
+}
+h3 {
+  font-size: 3vw;
+}
+nav {
+  font-size: 1.5vw;
+  font-family: "Impact Label Reversed";
+  background-color: rgb(236, 230, 208);
 }
 
+#hero-text {
+  padding-top: 5%;
+  padding-right: 10%;
+  text-align: right;
+}
 #hero {
+  margin: 0;
+  padding: 0;
+  align-items: right;
   background-color: rgb(215, 235, 250);
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("https://loveslabour.my.canva.site/_assets/media/c900f97891e6999577d0da0f99ad0f34.jpg");
+}
+
+#time-adress {
+  padding-right: 10%;
+  text-align: right;
+  width: 100vw;
+  height: 30vh;
+  background-image: url("assets/pictures/bottom-hero.jpg");
+}
+#about {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10%;
+}
+#about > h2 {
+  padding-bottom: 10%;
+}
+#Laurita {
+  width: 70%;
+  border: 0.3vh solid black;
+}
+
+#about-text > p {
+  padding-top: 10%;
+  text-align: left;
+}
+
+#samples {
+  display: flex;
+  flex-direction: row; /* Align images in a column */
+  align-items: flex-start; /* Align to the left */
+  padding: 4%;
+  width: 100vw;
+  height: 100vh;
+  gap: 7%;
+}
+
+#samples img {
+  max-width: 30%;
   height: auto;
-  background-image: url("assets/hero-bigger.jpg");
+  border: 0.3vh solid black;
+  padding: 0;
+}
+
+#first-image {
+  margin-top: 0%;
+  max-width: 290px;
+  max-height: 318px;
+}
+
+#second-image {
+  margin-top: 17%;
+  max-width: 378px;
+  max-height: 244px;
+}
+
+#third-image {
+  margin-top: 25%;
+  max-width: 290px;
+  max-height: 320px;
+}
+.col-sm {
+  margin: 0;
+  padding: 0;
+}
+#artist {
+  margin: 10%;
+  margin: 0;
 }
