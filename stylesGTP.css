@@ -1,0 +1,229 @@
+/* General Reset */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(236, 230, 208);
+  color: black;
+  font-family: "Impact Label Reversed";
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Impact Label";
+}
+
+h1 {
+  font-size: 8vw;
+  letter-spacing: 1%;
+  white-space: nowrap;
+  background-color: white;
+  display: inline-block;
+  padding: 0.2rem;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+/* Navigation Bar */
+nav {
+  font-size: 1.3vw;
+  font-family: "Impact Label Reversed";
+  background-color: rgb(236, 230, 208);
+  padding: 1rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/* Hero Section */
+#hero {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url("https://loveslabour.my.canva.site/_assets/media/c900f97891e6999577d0da0f99ad0f34.jpg")
+    no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  padding: 5%;
+}
+
+#hero-text {
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 40%;
+  text-align: right;
+  max-width: 50%;
+}
+
+#hero-text h1,
+#hero-text h2 {
+  padding-top: 10%;
+  display: inline-block;
+  background: white;
+  padding: 0rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Time & Address Section */
+#time-adress {
+  text-align: right;
+  padding: 2%;
+  width: 100%;
+  height: 30vh;
+  background: url("assets/pictures/bottom-hero.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  width: 100%;
+  padding: 5%;
+}
+
+#about h2 {
+  padding-bottom: 2rem;
+  font-family: "Impact Label Reversed";
+  font-size: 5vw;
+}
+
+#about p {
+  font-family: "PT Serif", serif;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+#Laurita {
+  width: 70%;
+  border: 0.3vh solid black;
+}
+
+/* Artist Section */
+#artist {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#about-text {
+  max-width: 600px;
+}
+
+#about-text h2 {
+  font-size: 9vh;
+  font-family: "Impact Label Reversed";
+}
+
+#about-text p {
+  font-size: 3vh;
+  padding-top: 10%;
+  text-align: left;
+}
+
+/* Sample Images Section */
+#samples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+  padding: 4%;
+  width: 100%;
+}
+
+#samples img {
+  max-width: 40%;
+  height: auto;
+  border: 0.3vh solid black;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 10vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  #hero {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+  }
+  #hero-text {
+    max-width: 70%;
+    text-align: center;
+    padding: 5%;
+  }
+  #artist {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 4vw;
+  }
+  #hero {
+    height: auto;
+    padding: 10%;
+  }
+  #hero-text {
+    max-width: 100%;
+  }
+  #samples img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 12vw;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  #hero {
+    height: auto;
+    padding: 15%;
+  }
+  #hero-text {
+    max-width: 100%;
+    text-align: center;
+    padding: 5%;
+  }
+  #samples img {
+    max-width: 100%;
+  }
+}

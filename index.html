@@ -10,11 +10,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylesupdated.css" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
   </head>
   <body>
     <div id="main-container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <button
           class="navbar-toggler"
           type="button"
@@ -38,16 +41,23 @@
           </div>
         </div>
       </nav>
-      <div class="title" id="hero">
-        <h1>Loves Labour</h1>
-        <h2>ART EXHIBITIONBY</h2> <b><h2> BY LAURY GARCIA</h2></b>
-        <h3>05.02.2025</h3>
-        <b><h3>17:00</h3></b>
-          Sentralen, Øvre Slottsgate 3
-          17:00</h3></div>
+      <div id="hero-background">
+      <div id="hero">
+        <div id="hero-text">
+          <h1>Loves Labour</h1>
+          <h2 id="heroart">ART EXHIBITION<br>
+          BY LAURY GARCIA</h2>
+        </div>
+        </div>
+      </div>
+      <div id="time-adress">
+        <h3 class="time-adress">05.02.2025</h3><br>
+        <h3 class="time-adress">17:00</h3><br>
+        <h3 class="time-adress">Sentralen, Øvre Slottsgate 3 17:00</h3>
+      </div>
       <div id="about">
         <h2>About the Exhibition</h2>
-        <p id="about-section">
+        <p id="about-section" class="pt-serif-regular">
           Welcome to "Love’s Labour," an interactive artistic journey showcasing
           a curated selection of mixed media artworks and prose poems by Laury
           Garcia. This thought-provoking collection delves into the complexities
@@ -59,7 +69,39 @@
           our understanding of these profound themes.
         </p>
       </div>
+  <div class="container" id="artist">
+  <div class="row">
+    <div class="col-sm" id="about-text">
+      <h2>Laury Who Dat?</h2>
+      <p>Laury is a Latina queer artist that went from Miami vibes to Oslo
+chills. She’s here to tackle love, growth, and identity
+
+no pressure, right? ...because who doesn’t love a good existentialist? 
+
+
+Come celebrate the wild and wonderful narratives that make life so
+delightfully complicated! 
+
+
+Let’s unravel these quirky narratives together.
+
+We promise, no judgment!</p>
     </div>
+    <div class="col-sm">
+      <img id="Laurita" src="assets\pictures\Laurita.png">
+    </div>
+    </div>
+  </div>
+    <div id="samples">
+      <img id="first-image" src="assets/pictures/sample1.JPG">
+     
+       <img id="second-image"  src="https://loveslabour.my.canva.site/_assets/media/2229d5dbc53c6027811993e9d3239d6e.jpg">
+     
+      <img id="third-image"   src="assets\pictures\sample3.jpg">
+    </div>
+  </div>
+</div>
+  </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -76,5 +118,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+ 
   </body>
 </html>
