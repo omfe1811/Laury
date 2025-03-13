@@ -6,7 +6,6 @@ body {
   background-color: rgb(236, 230, 208);
   color: black;
   font-family: "Impact Label Reversed";
-  font-size: 100%;
 }
 nav {
   font-weight: 550;
@@ -59,10 +58,11 @@ h3 {
   line-height: 30vh;
 }
 #hero-text h2 {
-  font-size: 3vw;
+  font-size: 3.2vw;
 }
 
 #time-adress {
+  font-size: 2vw;
   padding-top: 0.5%;
   padding-bottom: 5%;
   padding-right: 10%;
@@ -76,7 +76,7 @@ h3 {
 }
 #about {
   height: 100vh;
-  padding: 10%;
+  padding: 5% 10% 10% 10%;
 }
 #about > h2 {
   padding-bottom: 2%;
@@ -119,16 +119,13 @@ h3 {
 }
 
 #samples {
-  height: 100vh;
-  gap: 6%;
-  padding: 20% 5% 20% 5%;
+  height: 100vh; /* 
+  padding: 20% 5% 50% 5%; */
+  margin: 0% 10%;
 }
 
 #samples img {
-  max-width: 40%;
-  height: auto;
   border: 0.5vh solid black;
-  margin-top: -15%;
 }
 
 #first-image {
@@ -139,14 +136,40 @@ h3 {
 #second-image {
   max-width: 378px;
   max-height: 244px;
+  margin-top: -15%;
 }
 
 #third-image {
   max-width: 290px;
   max-height: 320px;
+  margin-top: -15%;
 }
-#Sentralen {
-  padding-top: 10%;
+#location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("assets/pictures/location-banner.jpg");
+}
+
+#Sentralen-text {
+  background: rgb(236, 230, 208);
+  border: 3px solid black;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Responsive padding */
+@media (max-width: 768px) {
+  #location {
+    padding: 20px;
+  }
+  #Sentralen-map iframe {
+    height: 300px;
+  }
 }
 
 @font-face {

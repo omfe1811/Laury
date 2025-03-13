@@ -48,7 +48,7 @@
       <div id="time-adress">
         <h3><span>05.02.2025</span></h3>
         <h3><span>17:00</span></h3>
-        <h3><span>Sentralen, Øvre Slottsgate 3 17:00</span></h3>
+        <h3><span>Sentralen, Øvre Slottsgate 3</span></h3>
       </div>
       <div id="about">
         <h2 id="h-about">About the Exhibition</h2>
@@ -111,7 +111,7 @@
         </div>
       </div>
 
-      <div id="samples" class="d-flex align-items-start flex-column">
+      <div id="samples" class="d-flex flex-column justify-content-around">
         <img
           class="align-self-start"
           id="first-image"
@@ -130,20 +130,31 @@
           src="assets\pictures\sample3.jpg"
         />
       </div>
-      <div class="container" id="Sentralen">
-        <div class="row">
+      <div class="container-fluid text-center" id="location">
+        <div class="row w-100 justify-content-center align-items-center py-5">
           <!-- Left Column: Text -->
-          <div class="col-sm" id="Sentralen-text">
+          <div class="col-12 col-md-6" id="Sentralen-text">
             <h2>See you there</h2>
-              <p>05.02.25</p>
-              <p>Kl 17</p>
-              <p>Sentralen,  Øvre  Slottsgate 3</p>
+            <p>05.02.25</p>
+            <p>Kl 17</p>
+            <p>Sentralen, Øvre Slottsgate 3</p>
           </div>
-      <div class="col-sm" id="Sentralen-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.266461152175!2d10.740317000000001!3d59.911125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e87dc342c95%3A0xd1f208bf00afc87d!2sSentralen!5e0!3m2!1sen!2sus!4v1741873222178!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+
+          <!-- Right Column: Map -->
+          <div class="col-12 col-md-6 text-center" id="Sentralen-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.266461152175!2d10.740317000000001!3d59.911125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e87dc342c95%3A0xd1f208bf00afc87d!2sSentralen!5e0!3m2!1sen!2sus!4v1741873222178!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style="border: 0; max-width: 600px"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
-      </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
