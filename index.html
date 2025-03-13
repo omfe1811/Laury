@@ -10,7 +10,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylesupdated.css" />
   </head>
   <body>
     <div id="main-container">
@@ -38,65 +38,112 @@
           </div>
         </div>
       </nav>
-      <div class="title" id="hero">
+      <div id="hero">
         <div id="hero-text">
-          <h1>Loves Labour</h1>
-          <h2>ART EXHIBITION</h2>
-          <b><h2>BY LAURY GARCIA</h2></b>
+          <h1><span>Loves Labour</span></h1>
+          <h2><span>ART EXHIBITION</span></h2>
+          <h2><span>BY LAURY GARCIA</span></h2>
         </div>
       </div>
       <div id="time-adress">
-        <h3>05.02.2025</h3>
-        <b><h3>17:00</h3></b>
-        <h3>Sentralen, Øvre Slottsgate 3 17:00</h3>
+        <h3><span>05.02.2025</span></h3>
+        <h3><span>17:00</span></h3>
+        <h3><span>Sentralen, Øvre Slottsgate 3 17:00</span></h3>
       </div>
       <div id="about">
-        <h2>About the Exhibition</h2>
-        <p id="about-section">
-          Welcome to "Love’s Labour," an interactive artistic journey showcasing
-          a curated selection of mixed media artworks and prose poems by Laury
-          Garcia. This thought-provoking collection delves into the complexities
-          of love, personal growth, and identity. As you explore the exhibition,
-          we invite you to discover the vibrant stories that connect us. We
-          encourage you to reflect on your own perspectives about love and
-          identity, because visitors are invited to contribute to the exhibition
-          if they wish. Join us in celebrating the diverse narratives that shape
-          our understanding of these profound themes.
-        </p>
+        <h2 id="h-about">About the Exhibition</h2>
+        <section
+          id="about-section"
+          class="d-flex align-content-start flex-wrap"
+        >
+          <p>
+            Welcome to "Love’s Labour," an interactive artistic journey
+            showcasing a curated selection of mixed media artworks and prose
+            poems by Laury Garcia.
+          </p>
+          <p>
+            This thought-provoking collection delves into the complexities of
+            love, personal growth, and identity. As you explore the exhibition,
+            we invite you to discover the vibrant stories that connect us.
+          </p>
+          <p>
+            We encourage you to reflect on your own perspectives about love and
+            identity, because visitors are invited to contribute to the
+            exhibition if they wish. Join us in celebrating the diverse
+            narratives that shape our understanding of these profound themes.
+          </p>
+        </section>
       </div>
-  <div class="container" id="artist">
-  <div class="row">
-    <div class="col-sm" id="about-text">
-      <h2>Laury Who Dat?</h2>
-      <p>Laury is a Latina queer artist that went from Miami vibes to Oslo
-chills. She’s here to tackle love, growth, and identity
 
-no pressure, right? ...because who doesn’t love a good existentialist? 
+      <div class="container" id="artist">
+        <div class="row">
+          <!-- Left Column: Text -->
+          <div class="col-sm" id="about-text">
+            <h2>Laury Who Dat?</h2>
+            <section>
+              <p>
+                Laury is a Latina queer artist that went from Miami vibes to
+                Oslo chills. She’s here to tackle love, growth, and identity— no
+                pressure, right? ...because who doesn’t love a good
+                existentialist?
+              </p>
 
+              <p>
+                Come celebrate the wild and wonderful narratives that make life
+                so delightfully complicated!
+              </p>
 
-Come celebrate the wild and wonderful narratives that make life so
-delightfully complicated! 
+              <p>
+                Let’s unravel these quirky narratives together. We promise, no
+                judgment!
+              </p>
+            </section>
+          </div>
 
+          <!-- Right Column: Image -->
+          <div class="col-sm">
+            <img
+              id="Laurita"
+              src="assets/pictures/Laurita.png"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
 
-Let’s unravel these quirky narratives together.
+      <div id="samples" class="d-flex align-items-start flex-column">
+        <img
+          class="align-self-start"
+          id="first-image"
+          src="assets/pictures/sample1.JPG"
+        />
 
-We promise, no judgment!</p>
+        <img
+          class="align-self-center"
+          id="second-image"
+          src="assets\pictures\sample2.jpg"
+        />
+
+        <img
+          class="align-self-end"
+          id="third-image"
+          src="assets\pictures\sample3.jpg"
+        />
+      </div>
+      <div class="container" id="Sentralen">
+        <div class="row">
+          <!-- Left Column: Text -->
+          <div class="col-sm" id="Sentralen-text">
+            <h2>See you there</h2>
+              <p>05.02.25</p>
+              <p>Kl 17</p>
+              <p>Sentralen,  Øvre  Slottsgate 3</p>
+          </div>
+      <div class="col-sm" id="Sentralen-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.266461152175!2d10.740317000000001!3d59.911125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e87dc342c95%3A0xd1f208bf00afc87d!2sSentralen!5e0!3m2!1sen!2sus!4v1741873222178!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+      </div>
     </div>
-    <div class="col-sm">
-      <img id="Laurita" src="assets\pictures\Laurita.png">
-    </div>
-    </div>
-  </div>
-    <div id="samples">
-      <img id="first-image" src="assets/pictures/sample1.JPG">
-     
-       <img id="second-image"  src="assets\pictures\sample2.jpg">
-     
-      <img id="third-image"   src="assets\pictures\sample3.jpg">
-    </div>
-  </div>
-</div>
-  </div>
+      </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
