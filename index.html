@@ -31,7 +31,9 @@
             <a class="nav-item nav-link active" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="#about">About Exhibition</a>
+            <a class="nav-item nav-link" href="#about-exhibition"
+              >About Exhibition</a
+            >
             <a class="nav-item nav-link" href="#artist">Artist</a>
             <a class="nav-item nav-link" href="#samples">Samples</a>
             <a class="nav-item nav-link" href="#location">Location</a>
@@ -41,8 +43,10 @@
       <div id="hero">
         <div id="hero-text">
           <h1><span>Loves Labour</span></h1>
-          <h2><span>ART EXHIBITION</span></h2>
-          <h2><span>BY LAURY GARCIA</span></h2>
+          <div id="hero-bottom-text">
+            <h2><span>ART EXHIBITION</span></h2>
+            <h2><span>BY LAURY GARCIA</span></h2>
+          </div>
         </div>
       </div>
       <div id="time-adress">
@@ -50,10 +54,10 @@
         <h3><span>17:00</span></h3>
         <h3><span>Sentralen, Øvre Slottsgate 3</span></h3>
       </div>
-      <div id="about">
-        <h2 id="h-about">About the Exhibition</h2>
+      <div id="about-exhibition">
+        <h2 class="font-reversed">About the Exhibition</h2>
         <section
-          id="about-section"
+          id="about-exhibition-section"
           class="d-flex align-content-start flex-wrap"
         >
           <p>
@@ -75,11 +79,11 @@
         </section>
       </div>
 
-      <div class="container" id="artist">
+      <div class="container" id="about-artist">
         <div class="row">
           <!-- Left Column: Text -->
-          <div class="col-sm" id="about-text">
-            <h2>Laury Who Dat?</h2>
+          <div class="col-sm" id="about-artist-text">
+            <h2 class="font-reversed">Laury Who Dat?</h2>
             <section>
               <p>
                 Laury is a Latina queer artist that went from Miami vibes to
@@ -100,10 +104,10 @@
             </section>
           </div>
 
-          <!-- Right Column: Image -->
-          <div class="col-sm">
+          <!-- Right Column: Laury Image -->
+          <div class="col-sm" id="laury-picture-container">
             <img
-              id="Laurita"
+              id="laurita-picture"
               src="assets/pictures/Laurita.png"
               class="img-fluid"
             />
@@ -130,10 +134,10 @@
           src="assets\pictures\sample3.jpg"
         />
       </div>
-      <div class="container-fluid text-center" id="location">
+      <div class="container-fluid text-center" id="location-container">
         <div class="row w-100 justify-content-center align-items-center py-5">
           <!-- Left Column: Text -->
-          <div class="col-12 col-md-6" id="Sentralen-text">
+          <div class="col-12 col-md-6" id="sentralen-text">
             <h2>See you there</h2>
             <p>05.02.25</p>
             <p>Kl 17</p>
@@ -141,12 +145,9 @@
           </div>
 
           <!-- Right Column: Map -->
-          <div class="col-12 col-md-6 text-center" id="Sentralen-map">
+          <div class="col-12 col-md-6 text-center" id="sentralen-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.266461152175!2d10.740317000000001!3d59.911125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e87dc342c95%3A0xd1f208bf00afc87d!2sSentralen!5e0!3m2!1sen!2sus!4v1741873222178!5m2!1sen!2sus"
-              width="100%"
-              height="400"
-              style="border: 0; max-width: 600px"
               allowfullscreen=""
               loading="lazy"
             >
