@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   width: 100%;
@@ -96,20 +99,17 @@ h3 {
 
 #about-exhibition > h2 {
   padding-bottom: 2%;
-  font-size: 4.8vw;
+  font-size: 4.9vw;
   text-shadow: rgba(0, 0, 0, 0.325) 0px 2.4px 10.2px;
   text-align: center;
 }
 
 #about-exhibition-section > p {
-  line-height: 5vh;
-  font-size: 3vw;
-  padding-bottom: 3%;
-  text-align: left;
   font-family: "pt-serif-regular";
-  width: 100%;
-  padding-left: 7%;
-  padding-right: 7%;
+  width: 90%;
+  font-size: 1.6rem;
+  text-align: left;
+  align-content: center;
 }
 #about-artist {
   padding: 7% 10% 10% 10%;
@@ -165,6 +165,7 @@ h3 {
 }
 
 #location-container {
+  margin-top: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
