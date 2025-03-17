@@ -10,6 +10,10 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+/* Try to make slide up animation var element = document.querySelector("#element");
+setTimeout(function () {
+  element.style.top = "200px";
+}, 200); */
 $(document).ready(function () {
   var wasClicked = false;
   // Function to trigger the animation
