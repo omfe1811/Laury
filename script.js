@@ -13,6 +13,12 @@ function typeWriter() {
   }
 }
 
+$("#samples-link").click(function () {
+  $("#first-image").fadeIn(1500);
+  $("#second-image").delay(500).fadeIn(1500);
+  $("#third-image").delay(1000).fadeIn(2000);
+});
+
 // Set visibility hidden on load
 window.onload = function () {
   document.getElementById("typing").style.visibility = "hidden";
