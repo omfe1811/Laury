@@ -95,9 +95,10 @@ h3 {
 }
 
 #about-exhibition {
-  height: 100vh;
-  padding: 5% 10% 10% 10%;
+  height: 100%;
+  padding: 7% 10% 10% 10%;
   margin-top: 5%;
+  align-items: center;
 }
 
 #about-exhibition > h2 {
@@ -112,10 +113,9 @@ h3 {
   width: 90%;
   font-size: 1.6rem;
   text-align: left;
-  align-content: center;
 }
 #about-artist {
-  padding: 7% 10% 10% 10%;
+  padding: 5% 10%;
 }
 #laury-picture-container {
   display: flex;
@@ -140,10 +140,13 @@ h3 {
 }
 
 #samples {
+  display: flex;
+  align-items: center;
   position: relative; /* Set the container to relative positioning */
-  padding-top: 40%;
-  height: 100vh; /* Adjust height as needed */
-  margin: 10% 5%;
+  padding-top: 10%;
+  height: 200vh;
+  margin-top: 5%;
+  margin: 5%;
 }
 
 #samples img {
@@ -160,21 +163,19 @@ h3 {
 #first-image {
   max-width: 290px;
   max-height: 318px;
-  top: 20%; /* Positioned at the top */
+  top: 10%; /* Positioned at the top */
 }
 
 #second-image {
   max-width: 428px;
   max-height: 294px;
-  top: 40%; /* Slightly lower than the first image for overlap */
-  left: 32%; /* Horizontally placed towards the center */
+  top: 25%; /* Slightly lower than the first image for overlap */
 }
 
 #third-image {
   max-width: 290px;
   max-height: 320px;
-  top: 50%; /* Positioned further down */
-  left: 75%; /* Horizontally placed to the right */
+  top: 35%; /* Positioned further down */
 }
 
 #location-container {
@@ -256,3 +257,41 @@ iframe {
     font-size: 4vw; /* Smaller font size for mobile */
   }
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    color: black;
+  }
+}
+/* FIX RESPONSIVE LAYOUT samples about align text*/
+/* For Mobile Portrait View */
+/* @media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+} */
+
+/* For Mobile Landscape View */
+/* @media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    color: black;
+  }
+} */
+
+/* For Mobile Phones Portrait or Landscape View */
+/* @media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    color: black;
+  }
+} */
