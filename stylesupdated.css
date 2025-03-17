@@ -24,6 +24,9 @@ nav {
 a {
   padding-right: 3%;
 }
+/* a:hover {
+  transition: margin-right 2s ease-in-out 0.5s;
+} */
 
 h1,
 h2,
@@ -140,14 +143,18 @@ h3 {
   position: relative; /* Set the container to relative positioning */
   padding-top: 40%;
   height: 100vh; /* Adjust height as needed */
-  margin: 20% 5%;
+  margin: 10% 5%;
 }
 
 #samples img {
-  position: absolute; /* Allow the images to overlap */
+  position: absolute;
   border: 0.5vh solid black;
-  display: none; /* Initially hidden */
-  transition: opacity 3s ease-in-out; /* Smooth opacity transition */
+  opacity: 0; /* Initially hidden (invisible) */
+  transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+}
+
+#samples img.visible {
+  opacity: 1; /* When the "visible" class is added, the image becomes visible */
 }
 
 #first-image {
